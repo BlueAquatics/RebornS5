@@ -1,0 +1,8 @@
+{
+  "FullName":"Kal's Solo Farm",
+  "Description":"Auto swinging dinos",
+  "Version":1.09,
+  "MinApiVersion":3.4,
+  "ResourceId":226,
+  "Dependancies": ["Permissions"]
+}

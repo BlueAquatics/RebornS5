@@ -1,0 +1,82 @@
+{
+   "Debug":false,
+   "MaxActiveFarmersPerTribe":2,
+   "AutoFarmOnCarry":true,
+   "AutoStopFarmOnDrop":true,
+   "DisableFarmCommand":false,
+   "DinoCanAutoFarmWithoutBeingCarried":false,
+   "Permissions":{
+   },
+   "BlockIfCarriedBy":[
+   ],
+   "FarmDinos":[
+    {
+      "BpPath": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP_Aberrant.Ankylo_Character_BP_Aberrant'",
+      "SecondsBetweenSwings": 0.25,
+      "StopAtWeightPercent": 0,
+      "ForceSwing": true
+	},
+    {
+      "BpPath": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Volcano_Ankylosaurus/Volcano_Ankylo_Character_BP.Volcano_Ankylo_Character_BP'",
+      "SecondsBetweenSwings": 0.25,
+      "StopAtWeightPercent": 0,
+      "ForceSwing": true
+    },
+    {
+      "BpPath": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP_Aberrant.Doed_Character_BP_Aberrant'",
+      "SecondsBetweenSwings": 0.25,
+      "StopAtWeightPercent": 0,
+      "ForceSwing": true
+    },
+	{
+         "BpPath":"Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
+         "SecondsBetweenSwings":0.25,
+         "StopAtWeightPercent":0,
+         "ForceSwing":true
+    },
+    {
+         "BpPath":"Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'",
+         "SecondsBetweenSwings":0.25,
+         "StopAtWeightPercent":0,
+         "ForceSwing":true
+    },	
+    {
+        "BpPath":"Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'",
+         "SecondsBetweenSwings":0.25,
+         "StopAtWeightPercent":0,
+         "ForceSwing":true
+    },
+    {
+         "BpPath":"Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'",
+         "SecondsBetweenSwings":0.25,
+         "StopAtWeightPercent":0,
+         "ForceSwing":false
+    },
+    {
+         "BpPath":"Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+         "SecondsBetweenSwings":0.25,
+         "StopAtWeightPercent":0,
+         "ForceSwing":false
+    },
+    {
+         "BpPath":"Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'",
+         "SecondsBetweenSwings":0.25,
+         "StopAtWeightPercent":0,
+         "ForceSwing":true
+    }
+   ],
+   "Messages":{
+      "SoloFarmCommand":"/farm",
+      "ToggledOn_CommandEnabled":"Turned on.\nUse {} to disable auto farming.",
+      "ToggledOff_CommandEnabled":"Turned off.\nUse {} to use again.",
+      "ToggledOn_CommandDisabled":"Turned on.",
+      "ToggledOff_CommandDisabled":"Turned off.",
+      "NoDino":"You must be looking at, riding, or carrying a farm dino to use this command.",
+      "NotAFarmDino":"This command can only be used with a farm dino",
+      "MountFarmDino_Enabled":"Dino is auto farming. Use {} to disable.",
+      "MountFarmDino_Disabled":"Use {} to enable auto farming.",
+      "MaxTribeFarmers":"You and your tribe cannot have more than {} active farmers at one time.",
+      "NoPermission":"You do not have permissions to use solo farm."
+   },
+   "LicenseKey":"005B38138190154E10A43102747169E1BAED8C70B90757FE182A252218DF6DD32B9DE1C910C969334D8695BBF76867255C76EC14B7DA7ABE4004BF2F076B62DB4AADC8D752A80E2CCAA1E9D3B45E42D359503DB27F390555DB37CB107FE5DB317A5674E25B98527F48F53D905631D59D3B5A12FD4B6A6DFBD25A5BC088D4ADCB1636"
+}

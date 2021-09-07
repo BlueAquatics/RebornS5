@@ -1,0 +1,15 @@
+{
+	"InfiniteGrapple": true,
+	"InfiniteZipline": true,
+	"InfiniteBola": true,
+	"InfiniteSpear": true,
+	"InfiniteSling": true,
+	"InfiniteFlare": true,
+	"InfiniteParachute": true,
+	"NoDuraWhip": true,
+	"NoDuraBoomerang": true,
+	"NoDuraRod": true,
+	"NoDuraClimbing": true,
+	"NoDuraScissors": true,
+	"NoDuraTorch": true
+}

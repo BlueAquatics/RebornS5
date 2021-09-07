@@ -1,0 +1,1731 @@
+{
+  "General": {
+    "LogItemPaths":false,
+        "ModifyQualityItemsOnly":false,
+        "WeightReducedByPercent":50,
+        "BlockAllItemUploads":false    
+  },
+  "Permissions": {
+    "UsePermissions": false,
+    "ARKDataUploadBypassPermissionName": "ItemsPlusUpload",
+    "ARKDataUploadBypassAllPermissionName": "ItemsPlusUploadAll"
+  },
+  "IgnoreItems": [
+
+  ],
+  "Items": [
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_SubstrateAbsorbent.PrimalItemResource_SubstrateAbsorbent'",
+ 						"WeightReducedByPercent": 90
+ 					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotPants.PrimalItemArmor_RiotPants'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotShirt.PrimalItemArmor_RiotShirt'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotGloves.PrimalItemArmor_RiotGloves'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotBoots.PrimalItemArmor_RiotBoots'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotHelmet.PrimalItemArmor_RiotHelmet'",
+						"DurabilityCap": 1300
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponRifle.PrimalItem_WeaponRifle'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCompoundBow.PrimalItem_WeaponCompoundBow'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedPistol.PrimalItem_WeaponMachinedPistol'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/ScorchedEarth/WeaponFlamethrower/PrimalItem_WeapFlamethrower.PrimalItem_WeapFlamethrower'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponShotgun.PrimalItem_WeaponShotgun'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponGun.PrimalItem_WeaponGun'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSword.PrimalItem_WeaponSword'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/Aberration/WeaponTekSniper/PrimalItem_TekSniper.PrimalItem_TekSniper'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/Genesis2/Weapons/TekBow/PrimalItem_WeaponTekBow.PrimalItem_WeaponTekBow'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/Genesis2/Weapons/TekPistol/PrimalItem_WeaponTekPistol.PrimalItem_WeaponTekPistol'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/Genesis2/Weapons/Minigun/PrimalItem_WeaponMinigun.PrimalItem_WeaponMinigun'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekRifle.PrimalItem_TekRifle'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTekSword.PrimalItem_WeaponTekSword'",
+						"WeaponDamageCap": 350
+					},
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'",
+						"ArmorCap": 150	
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArthroSaddle.PrimalItemArmor_ArthroSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BaryonyxSaddle.PrimalItemArmor_BaryonyxSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
+						"ArmorCap": 150
+					},
+					
+					{
+						"Item":"Blueprint'/Game/Genesis/Dinos/GiantTurtle/PrimalItemArmor_GiantTurtleSaddle.PrimalItemArmor_GiantTurtleSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle_Platform.PrimalItemArmor_SauroSaddle_Platform'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle.PrimalItemArmor_SauroSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{ 
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarnoSaddle.PrimalItemArmor_CarnoSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ChalicoSaddle.PrimalItemArmor_ChalicoSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DiplodocusSaddle.PrimalItemArmor_DiplodocusSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DireBearSaddle.PrimalItemArmor_DireBearSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DunkleosteusSaddle.PrimalItemArmor_DunkleosteusSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GachaSaddle.PrimalItemArmor_GachaSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Gallimimus.PrimalItemArmor_Gallimimus'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GasBagsSaddle.PrimalItemArmor_GasBagsSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_HyaenodonSaddle.PrimalItemArmor_HyaenodonSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DolphinSaddle.PrimalItemArmor_DolphinSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_IguanodonSaddle.PrimalItemArmor_IguanodonSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemArmor_MothSaddle.PrimalItemArmor_MothSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MammothSaddle.PrimalItemArmor_MammothSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MantaSaddle.PrimalItemArmor_MantaSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StagSaddle.PrimalItemArmor_StagSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalaniaSaddle.PrimalItemArmor_MegalaniaSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemArmor_CamelsaurusSaddle.PrimalItemArmor_CamelsaurusSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Platform.PrimalItemArmor_MosaSaddle_Platform'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle.PrimalItemArmor_MosaSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Tek.PrimalItemArmor_MosaSaddle_Tek'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachySaddle.PrimalItemArmor_PachySaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachyrhinoSaddle.PrimalItemArmor_PachyrhinoSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParacerSaddle_Platform.PrimalItemArmor_ParacerSaddle_Platform'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Paracer_Saddle.PrimalItemArmor_Paracer_Saddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PelaSaddle.PrimalItemArmor_PelaSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PhiomiaSaddle.PrimalItemArmor_PhiomiaSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiSaddle_Platform.PrimalItemArmor_PlesiSaddle_Platform'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiaSaddle.PrimalItemArmor_PlesiaSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ScorpionSaddle.PrimalItemArmor_ScorpionSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle.PrimalItemArmor_QuetzSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RaptorSaddle.PrimalItemArmor_RaptorSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{ 
+						"Item":"Blueprint'/Game/Aberration/Dinos/CaveWolf/PrimalItemArmor_CavewolfSaddle.PrimalItemArmor_CavewolfSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SaberSaddle.PrimalItemArmor_SaberSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SarcoSaddle.PrimalItemArmor_SarcoSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_OwlSaddle.PrimalItemArmor_OwlSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpinoSaddle.PrimalItemArmor_SpinoSaddle'",
+						"ArmorCap": 150
+					},
+
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardSaddle.PrimalItemArmor_SpineyLizardSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TitanSaddle_Platform.PrimalItemArmor_TitanSaddle_Platform'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+						"ArmorCap": 150
+					},
+      
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TusoSaddle.PrimalItemArmor_TusoSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+						"ArmorCap": 150
+					},
+  
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhinoSaddle.PrimalItemArmor_RhinoSaddle'",
+						"ArmorCap": 150
+					},
+    
+					{
+						"Item":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle'",
+						"ArmorCap": 150
+					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AmmoniteBlood.PrimalItemResource_AmmoniteBlood'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_BlueSap.PrimalItemResource_BlueSap'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_BioLum.PrimalItemResource_Gem_BioLum'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BloodPack.PrimalItemConsumable_BloodPack'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Charcoal.PrimalItemResource_Charcoal'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinOrKeratin.PrimalItemResource_ChitinOrKeratin'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CondensedGas.PrimalItemResource_CondensedGas'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gas.PrimalItemResource_Gas'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedPolymer.PrimalItemResource_CorruptedPolymer'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDustFromShards.PrimalItemResource_ElementDustFromShards'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/PrimalItemResource_KeratinSpike.PrimalItemResource_KeratinSpike'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItem_TaxidermyDermis.PrimalItem_TaxidermyDermis'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ARKBone.PrimalItemResource_ARKBone'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ElementOre.PrimalItemResource_ElementOre'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_FracturedGem.PrimalItemResource_FracturedGem'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedWood.PrimalItemResource_CorruptedWood'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Fertile.PrimalItemResource_Gem_Fertile'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gunpowder.PrimalItemResource_Gunpowder'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hair.PrimalItemResource_Hair'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_LeechBlood.PrimalItemResource_LeechBlood'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResourceGeneric_Curing.PrimalItemResourceGeneric_Curing'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Narcotic.PrimalItemConsumable_Narcotic'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_PeltOrHair.PrimalItemResource_PeltOrHair'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer.PrimalItemResource_Polymer'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_PreservingSalt.PrimalItemResource_PreservingSalt'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Propellant.PrimalItemResource_Propellant'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_RawSalt.PrimalItemResource_RawSalt'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableMiracleGro.PrimalItemConsumableMiracleGro'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_RedSap.PrimalItemResource_RedSap'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Element.PrimalItemResource_Gem_Element'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sand.PrimalItemResource_Sand'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetal.PrimalItemResource_ScrapMetal'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetalIngot.PrimalItemResource_ScrapMetalIngot'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_Silicate.PrimalItemResource_Silicate'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sparkpowder.PrimalItemResource_Sparkpowder'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Stimulant.PrimalItemConsumable_Stimulant'",
+ 						"WeightReducedByPercent": 90
+ 					},
+
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementRefined.PrimalItemResource_ElementRefined'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ShardRefined.PrimalItemResource_ShardRefined'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Horn.PrimalItemResource_Horn'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Campfire.PrimalItemStructure_Campfire'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StandingTorch.PrimalItemStructure_StandingTorch'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SleepingBag_Hide.PrimalItemStructure_SleepingBag_Hide'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchCeiling.PrimalItemStructure_ThatchCeiling'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchDoor.PrimalItemStructure_ThatchDoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchFloor.PrimalItemStructure_ThatchFloor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchWall.PrimalItemStructure_ThatchWall'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchWallWithDoor.PrimalItemStructure_ThatchWallWithDoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCatwalk.PrimalItemStructure_WoodCatwalk'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCeiling.PrimalItemStructure_WoodCeiling'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCeilingWithTrapdoor.PrimalItemStructure_WoodCeilingWithTrapdoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodDoor.PrimalItemStructure_WoodDoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodFloor.PrimalItemStructure_WoodFloor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodLadder.PrimalItemStructure_WoodLadder'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodPillar.PrimalItemStructure_WoodPillar'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodRamp.PrimalItemStructure_WoodRamp'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodTrapdoor.PrimalItemStructure_WoodTrapdoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWall.PrimalItemStructure_WoodWall'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWallWithDoor.PrimalItemStructure_WoodWallWithDoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWallWithWindow.PrimalItemStructure_WoodWallWithWindow'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWindow.PrimalItemStructure_WoodWindow'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign.PrimalItemStructure_WoodSign'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Small.PrimalItemStructure_StorageBox_Small'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Large.PrimalItemStructure_StorageBox_Large'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_MortarAndPestle.PrimalItemStructure_MortarAndPestle'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIntake.PrimalItemStructure_StonePipeIntake'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeStraight.PrimalItemStructure_StonePipeStraight'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIncline.PrimalItemStructure_StonePipeIncline'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIntersection.PrimalItemStructure_StonePipeIntersection'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeVertical.PrimalItemStructure_StonePipeVertical'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeTap.PrimalItemStructure_StonePipeTap'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Forge.PrimalItemStructure_Forge'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AnvilBench.PrimalItemStructure_AnvilBench'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CompostBin.PrimalItemStructure_CompostBin'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CookingPot.PrimalItemStructure_CookingPot'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Simple.PrimalItemStructure_Bed_Simple'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Small.PrimalItemStructure_CropPlot_Small'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodFenceFoundation.PrimalItemStructure_WoodFenceFoundation'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodGateframe.PrimalItemStructure_WoodGateframe'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodGate.PrimalItemStructure_WoodGate'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCatwalk.PrimalItemStructure_MetalCatwalk'",
+ 						"WeightReducedByPercent": 90
+ 					}, 
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeiling.PrimalItemStructure_MetalCeiling'",
+ 						"WeightReducedByPercent": 90
+ 					}, 
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeilingWithTrapdoor.PrimalItemStructure_MetalCeilingWithTrapdoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalDoor.PrimalItemStructure_MetalDoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFenceFoundation.PrimalItemStructure_MetalFenceFoundation'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFloor.PrimalItemStructure_MetalFloor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGate_Large.PrimalItemStructure_MetalGate_Large'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGateframe_Large.PrimalItemStructure_MetalGateframe_Large'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalLadder.PrimalItemStructure_MetalLadder'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalPillar.PrimalItemStructure_MetalPillar'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRamp.PrimalItemStructure_MetalRamp'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalTrapdoor.PrimalItemStructure_MetalTrapdoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWall.PrimalItemStructure_MetalWall'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWallWithDoor.PrimalItemStructure_MetalWallWithDoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWallWithWindow.PrimalItemStructure_MetalWallWithWindow'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWindow.PrimalItemStructure_MetalWindow'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Fabricator.PrimalItemStructure_Fabricator'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_WaterTank.PrimalItemStructure_WaterTank'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AirConditioner.PrimalItemStructure_AirConditioner'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerGenerator.PrimalItemStructure_PowerGenerator'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerOutlet.PrimalItemStructure_PowerOutlet'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableIncline.PrimalItemStructure_PowerCableIncline'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableIntersection.PrimalItemStructure_PowerCableIntersection'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableStraight.PrimalItemStructure_PowerCableStraight'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Lamppost.PrimalItemStructure_Lamppost'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IceBox.PrimalItemStructure_IceBox'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Turret.PrimalItemStructure_Turret'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Keypad.PrimalItemStructure_Keypad'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIncline.PrimalItemStructure_MetalPipeIncline'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIntake.PrimalItemStructure_MetalPipeIntake'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIntersection.PrimalItemStructure_MetalPipeIntersection'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeStraight.PrimalItemStructure_MetalPipeStraight'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeTap.PrimalItemStructure_MetalPipeTap'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeVertical.PrimalItemStructure_MetalPipeVertical'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign.PrimalItemStructure_MetalSign'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign_Large.PrimalItemStructure_WoodSign_Large'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Large.PrimalItemStructure_MetalSign_Large'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Medium.PrimalItemStructure_CropPlot_Medium'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Large.PrimalItemStructure_CropPlot_Large'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign_Wall.PrimalItemStructure_WoodSign_Wall'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGateframe.PrimalItemStructure_MetalGateframe'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGate.PrimalItemStructure_MetalGate'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Wall.PrimalItemStructure_MetalSign_Wall'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag.PrimalItemStructure_Flag'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Spider.PrimalItemStructure_Flag_Spider'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_PreservingBin.PrimalItemStructure_PreservingBin'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSpikeWall.PrimalItemStructure_MetalSpikeWall'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Huge.PrimalItemStructure_StorageBox_Huge'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSpikeWall.PrimalItemStructure_WoodSpikeWall'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bookshelf.PrimalItemStructure_Bookshelf'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneFenceFoundation.PrimalItemStructure_StoneFenceFoundation'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWall.PrimalItemStructure_StoneWall'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_WaterTankMetal.PrimalItemStructure_WaterTankMetal'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeiling.PrimalItemStructure_StoneCeiling'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingWithTrapdoor.PrimalItemStructure_StoneCeilingWithTrapdoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneDoor.PrimalItemStructure_StoneDoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneFloor.PrimalItemStructure_StoneFloor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGate.PrimalItemStructure_StoneGate'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateframe.PrimalItemStructure_StoneGateframe'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StonePillar.PrimalItemStructure_StonePillar'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithDoor.PrimalItemStructure_StoneWallWithDoor'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithWindow.PrimalItemStructure_StoneWallWithWindow'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_StoneWindow.PrimalItemStructure_StoneWindow'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_StoneWindow.PrimalItemStructure_StoneWindow'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_LamppostOmni.PrimalItemStructure_LamppostOmni'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Grill.PrimalItemStructure_Grill'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Single.PrimalItemStructure_Flag_Single'",
+ 						"WeightReducedByPercent": 90
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot'",
+ 						"WeightReducedByPercent": 90
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_12.PrimalItemArtifact_12'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_05.PrimalItemArtifact_05'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_11.PrimalItemArtifact_11'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_04.PrimalItemArtifact_04'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_07.PrimalItemArtifact_07'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_01.PrimalItemArtifact_01'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_08.PrimalItemArtifact_08'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_03.PrimalItemArtifact_03'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_02.PrimalItemArtifact_02'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_06.PrimalItemArtifact_06'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_09.PrimalItemArtifact_09'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_01.PrimalItemArtifactSE_01'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_02.PrimalItemArtifactSE_02'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_03.PrimalItemArtifactSE_03'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB.PrimalItemArtifactAB'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_2.PrimalItemArtifactAB_2'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_3.PrimalItemArtifactAB_3'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_DesertKaiju.PrimalItemArtifact_Extinction_DesertKaiju'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_ForestKaiju.PrimalItemArtifact_Extinction_ForestKaiju'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": 	"Blueprint'/Game/Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_IceKaiju.PrimalItemArtifact_Extinction_IceKaiju'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaLeeds.PrimalItemResource_ApexDrop_AlphaLeeds'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMegalodon.PrimalItemResource_ApexDrop_AlphaMegalodon'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMosasaur.PrimalItemResource_ApexDrop_AlphaMosasaur'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRaptor.PrimalItemResource_ApexDrop_AlphaRaptor'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaTuso.PrimalItemResource_ApexDrop_AlphaTuso'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Argentavis.PrimalItemResource_ApexDrop_Argentavis'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_RareDrop_CorruptHeart.PrimalItemResource_RareDrop_CorruptHeart'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_GasBag.PrimalItemResource_ApexDrop_GasBag'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Giga.PrimalItemResource_ApexDrop_Giga'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Theriz.PrimalItemResource_ApexDrop_Theriz'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Yuty.PrimalItemResource_ApexDrop_Yuty'",
+ 						"WeightReducedByPercent": 90,
+						"Transfer":"allow"
+ 					},
+ 					{
+ 						"Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_MiniHLNA.PrimalItemSkin_MiniHLNA'",
+ 						"BlockItem": true
+ 					}
+  ],
+    "ItemUploadsAndOverflowProtection": {
+    "Enabled": true,
+    "DownloadDelay": 5,
+    "ItemsExpireAfterMinutes": 60,
+    "CommandText": "/upload",
+    "CommandText2": "/download",
+    "CommandActiveTime": 60,
+    "EnableSameServerDownloads": false,
+    "Items": [
+      "PrimalItemResource_Element",
+      "PrimalItemResource_ApexDrop",
+      "PrimalItemResource_RareDrop",
+      "PrimalItemArtifact",
+      "PrimalItemTrophy",
+      "PrimalItemResource_XenomorphPheromoneGland",
+      "PrimalItemConsumable_GachaPod"
+    ],
+    "TekItems": [
+      "PrimalItemArmor_TekHelmet",
+      "PrimalItemArmor_TekBoots",
+      "PrimalItemArmor_TekShirt",
+      "PrimalItemArmor_TekGloves",
+      "PrimalItemArmor_TekPants",
+      "PrimalItemArmor_ShieldTek",
+      "PrimalItemArmor_ShoulderCannon"
+    ]
+  },
+  "Messages": {
+    "Sender": {
+      "Message": "ItemsPlus"
+    },
+    "Crafts": {
+      "Message": "Crafts Left:"
+    },
+    "CraftsRemaining": {
+      "Message": "<RichColor Color=\"1, 1, 0, 1\">{} {}</>"
+    },
+    "BlockedItem": {
+      "Message": "{} is a blocked item and cannot be added to your inventory."
+    },
+    "BlockedTransfer": {
+      "Message": "{} is a blocked item and cannot be transferred. Transfer will timeout in 60 seconds.",
+      "Scale": 1.5,
+      "DisplayTime": 58.0,
+      "Color": "Red"
+    },
+    "BlockedTransfer2": {
+      "Message": "{} is a blocked item and cannot be transferred.\nChange the sort by option (top right corner) to re-enable the cancel button.",
+      "Scale": 1.5,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "UseUploadCommand": {
+      "Message": "You are carrying an item which requires you to use {0} before trying to transfer servers.\nThe {0} command will be active for {1} seconds.",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "ItemsUploaded": {
+      "Message": "Your items have been uploaded.\nRetrieve them by transfering to another server.",
+      "Scale": 1.5,
+      "DisplayTime": 4.0,
+      "Color": "Green"
+    },
+    "ItemsUploadedWithExpire": {
+      "Message": "Your items have been uploaded.\nRetrieve them by transfering to another server.\nItems will expire after {} minutes!",
+      "Scale": 1.5,
+      "DisplayTime": 6.0,
+      "Color": "Green"
+    },
+    "ItemsDownloaded": {
+      "Message": "All valid items have been downloaded to your character.",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Green"
+    },
+    "ItemsDownloadedExpired": {
+      "Message": "Some items Expired while in upload!\nAll remaining items have been downloaded to your character.",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "ItemsDownloadedError": {
+      "Message": "Your items were unable to be retrieved at this time!",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "CommandExpired": {
+      "Message": "The {0} command can only be used from a tribute terminal.\nYou have {1} seconds to use the command after opening the tribute terminals inventory.",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "DownloadCD": {
+      "Message": "The {0} command cannot be used again yet!",
+      "Scale": 1.5,
+      "DisplayTime": 3.0,
+      "Color": "Red"
+    }
+  },
+  "Mysql": {
+ 						"UseMysql": false,
+ 						"MysqlHost": "za.dbhost.hyperlayer.net",
+ 						"MysqlPort": 3306,
+ 						"MysqlUser": "roelofv_995",
+ 						"MysqlPass": "!528BI73S1s3",
+ 						"MysqlDB": "roelofv_Ragnarok"
+ 					}
+ 					
+}

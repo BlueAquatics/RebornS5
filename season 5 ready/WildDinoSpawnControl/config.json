@@ -1,0 +1,6 @@
+{
+  "Max_Dino_Counts": {
+	"Blueprint'/Game/Aberration/Dinos/Basilisk/MegaBasilisk_Character_BP.MegaBasilisk_Character_BP'": 3,
+  },
+  "WriteDumpsToFile": false
+}

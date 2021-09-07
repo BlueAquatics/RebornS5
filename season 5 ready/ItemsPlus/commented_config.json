@@ -1,0 +1,160 @@
+{
+  "General": { //OPTIONAL settings in this section affect all item BPs. These settings can be added to a specific BP if you want to customize a specific BP. OPTIONAL settings can also be removed from the config if you want to not use that feature.
+    "LogItemPaths": false,
+    "ModifyQualityItemsOnly": false, //Prevent changes to Primitive items no matter what
+    "WeightReducedByPercent": 50, //Reduces weight of all items in the game by this percentage (OPTIONAL CAN BE DELETED)
+    "BPUses": 10, //Generic craft limit if settings below are not used can be for all items or specific BPs (OPTIONAL CAN BE DELETED)
+    "BPUsesPrimitive": 20, //Craft limit for all Primitive items or specific BPs (OPTIONAL CAN BE DELETED)
+    "BPUsesRamshackle": 30, //Craft limit for all Ramshackle items or specific BPs (OPTIONAL CAN BE DELETED)
+    "BPUsesApprentice": 40, //Craft limit for all Apprentice items or specific BPs (OPTIONAL CAN BE DELETED)
+    "BPUsesJourneyman": 50, //Craft limit for all Journeyman items or specific BPs (OPTIONAL CAN BE DELETED)
+    "BPUsesMastercraft": 60, //Craft limit for all Mastercraft items or specific BPs (OPTIONAL CAN BE DELETED)
+    "BPUsesAscendant": 70, //Craft limit for all Ascendant items or specific BPs (OPTIONAL CAN BE DELETED)
+    "BPUsesTEK": 13, //Craft limit for all TEK items or specific BPs (OPTIONAL CAN BE DELETED)
+    "BlockAllItemUploads": false, //Block uploading items to ArkData
+    "WeaponDurabilityLossReducedByPercent": 50, //Reduce the durability weapons use by X percent (OPTIONAL CAN BE DELETED)
+    "ArmorDurabilityLossReducedByPercent": 50, //Reduce the durability armor use by X percent (OPTIONAL CAN BE DELETED)
+    "IncreaseMaxDurabilityByPercent": 50, //Increase durability rolls on items (OPTIONAL CAN BE DELETED)
+    "IncreaseWeaponDamageByPercent": 50, //Increase weapon damage rolls (OPTIONAL CAN BE DELETED)
+    "IncreaseArmorByPercent": 50 //Increase armor value rolls (OPTIONAL CAN BE DELETED)
+  },
+  "Permissions": { //Permissions for ARK Data upload restriction system
+    "UsePermissions": false,
+    "ARKDataUploadBypassPermissionName": "ItemsPlusUpload",
+    "ARKDataUploadBypassAllPermissionName": "ItemsPlusUploadAll"
+  },
+  "IgnoreItems": [ //Any items you don't want to modify can be listed here
+
+  ],
+  "Items": [
+    {
+      "Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekRifle.PrimalItem_TekRifle'",
+      "WeaponDamageCap": 200, //Will cap base weapon damage rolls to this value. Crafting Skill will exceed this limit (OPTIONAL CAN BE DELETED)
+      "DurabilityCap": 200, //Will cap base durability rolls to this value. Crafting Skill will exceed this limit (OPTIONAL CAN BE DELETED)
+      "WeightReducedByPercent": 50, //Reduces weight of all items in the game by this percentage (OPTIONAL CAN BE DELETED)
+      "BPUses": 10, //Generic craft limit if settings below are not used can be for all items or specific BPs (OPTIONAL CAN BE DELETED)
+      "BPUsesPrimitive": 20, //Craft limit for all Primitive items or specific BPs (OPTIONAL CAN BE DELETED)
+      "BPUsesRamshackle": 30, //Craft limit for all Ramshackle items or specific BPs (OPTIONAL CAN BE DELETED)
+      "BPUsesApprentice": 40, //Craft limit for all Apprentice items or specific BPs (OPTIONAL CAN BE DELETED)
+      "BPUsesJourneyman": 50, //Craft limit for all Journeyman items or specific BPs (OPTIONAL CAN BE DELETED)
+      "BPUsesMastercraft": 60, //Craft limit for all Mastercraft items or specific BPs (OPTIONAL CAN BE DELETED)
+      "BPUsesAscendant": 70, //Craft limit for all Ascendant items or specific BPs (OPTIONAL CAN BE DELETED)
+      "BPUsesTEK": 13, //Craft limit for all TEK items or specific BPs (OPTIONAL CAN BE DELETED)
+      "WeaponDurabilityLossReducedByPercent": 50, //Reduce the durability weapons use by X percent (OPTIONAL CAN BE DELETED)
+      "ArmorDurabilityLossReducedByPercent": 50, //Reduce the durability armor use by X percent (OPTIONAL CAN BE DELETED)
+      "IncreaseMaxDurabilityByPercent": 50, //Increase durability rolls on items (OPTIONAL CAN BE DELETED)
+      "IncreaseWeaponDamageByPercent": 50, //Increase weapon damage rolls (OPTIONAL CAN BE DELETED)
+      "IncreaseArmorByPercent": 50 //Increase armor value rolls(OPTIONAL CAN BE DELETED)
+    },
+    {
+      "Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot'",
+      "WeightReducedByPercent": 90 //Reduces weight of all items in the game by this percentage (OPTIONAL CAN BE DELETED)
+    },
+    {
+      "Item": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_MiniHLNA.PrimalItemSkin_MiniHLNA'",
+      "BlockItem": true //Prevent this item from being added to player inventory. A message will state the item was blocked. (OPTIONAL CAN BE DELETED)
+    }
+  ],
+  "ItemUploadsAndOverflowProtection": { //This feature requires MySQL to be used. This feature also contains Overflow Protection
+    "Enabled": true, //Enables feature
+    "DownloadDelay": 5, //Amount of seconds after spawning before delivering uploaded items. I recommend at least 5-10 seconds here.
+    "ItemsExpireAfterMinutes": 60, //After X minutes items in the upload will be expired and not be downloadable
+    "CommandText": "/upload", //Command to use when carrying items that cannot normally be transferred "element/artifacts/etc"
+    "CommandText2": "/download", //Command to download any items that were not able to be automatically added because of overflfow protection
+    "CommandActiveTime": 60, //Amount of time in seconds the command will be active after opening an upload terminal
+    "Items": [ //Allowd items that can be uploaded to the server. No Armor or weapons should be added here it won't work.
+      "PrimalItemResource_Element",
+      "PrimalItemResource_ApexDrop",
+      "PrimalItemResource_RareDrop",
+      "PrimalItemArtifact",
+      "PrimalItemTrophy",
+      "PrimalItemResource_XenomorphPheromoneGland",
+      "PrimalItemConsumable_GachaPod"
+    ],
+    "TekItems": [
+      "PrimalItemArmor_TekHelmet",
+      "PrimalItemArmor_TekBoots",
+      "PrimalItemArmor_TekShirt",
+      "PrimalItemArmor_TekGloves",
+      "PrimalItemArmor_TekPants",
+      "PrimalItemArmor_ShieldTek",
+      "PrimalItemArmor_ShoulderCannon"
+    ]
+  },
+  "Messages": {
+    "Sender": {
+      "Message": "ItemsPlus"
+    },
+    "Crafts": {
+      "Message": "Crafts Left:"
+    },
+    "CraftsRemaining": {
+      "Message": "<RichColor Color=\"1, 1, 0, 1\">{} {}</>"
+    },
+    "BlockedItem": {
+      "Message": "{} is a blocked item and cannot be added to your inventory."
+    },
+    "BlockedTransfer": {
+      "Message": "{} is a blocked item and cannot be transferred. Transfer will timeout in 60 seconds.",
+      "Scale": 1.5,
+      "DisplayTime": 58.0,
+      "Color": "Red"
+    },
+    "BlockedTransfer2": {
+      "Message": "{} is a blocked item and cannot be transferred.\nChange the sort by option (top right corner) to re-enable the cancel button.",
+      "Scale": 1.5,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "UseUploadCommand": {
+      "Message": "You are carrying an item which requires you to use {0} before trying to transfer servers.\nThe {0} command will be active for {1} seconds.",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "ItemsUploaded": {
+      "Message": "Your items have been uploaded.\nRetrieve them by transfering to another server.",
+      "Scale": 1.5,
+      "DisplayTime": 4.0,
+      "Color": "Green"
+    },
+    "ItemsUploadedWithExpire": {
+      "Message": "Your items have been uploaded.\nRetrieve them by transfering to another server.\nItems will expire after {} minutes!",
+      "Scale": 1.5,
+      "DisplayTime": 6.0,
+      "Color": "Green"
+    },
+    "ItemsDownloaded": {
+      "Message": "All valid items have been downloaded to your character.",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Green"
+    },
+    "ItemsDownloadedExpired": {
+      "Message": "Some items Expired while in upload!\nAll remaining items have been downloaded to your character.",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "ItemsDownloadedError": {
+      "Message": "Your items were unable to be retrieved at this time!",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "CommandExpired": {
+      "Message": "The {0} command can only be used from a tribute terminal.\nYou have {1} seconds to use the command after opening the tribute terminals inventory.",
+      "Scale": 1.5,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    }
+  },
+  "Mysql": { //Needed if using "ItemUploadsAndOverflowProtection" for overflow protection and normally restricted item uploads
+    "UseMysql": false,
+    "MysqlHost": "localhost",
+    "MysqlPort": 3306,
+    "MysqlUser": "sqlusername",
+    "MysqlPass": "sqlpassword",
+    "MysqlDB": "mydatabasename"
+  }
+}

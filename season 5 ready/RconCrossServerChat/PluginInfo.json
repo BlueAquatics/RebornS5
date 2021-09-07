@@ -1,0 +1,7 @@
+{
+  "FullName":"RconCrossServerChat",
+  "Description":"Cross Server chat using RCON",
+  "Version":1.7,
+  "MinApiVersion":2.8,
+  "ResourceId":65
+}
